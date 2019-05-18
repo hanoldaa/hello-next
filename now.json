@@ -1,5 +1,5 @@
 {
     "version": 2,
     "builds": [{"src": "package.json", "use": "@now/next"}],
-    "routes": [{"src": "(?<id>.+)$", "dest": "/post?id=$id"}]
+    "routes": [{"src": "/p/(?<id>.+)$", "dest": "/post?id=$id"}]
 }
